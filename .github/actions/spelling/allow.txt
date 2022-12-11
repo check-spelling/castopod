@@ -1,0 +1,8 @@
+AGPL
+agpl
+castopod
+github
+gnu
+https
+ssh
+ubuntu
