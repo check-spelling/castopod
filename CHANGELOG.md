@@ -61,7 +61,7 @@
 - **activitypub:** add target_actor_id for create activity to broadcast post
   reply
   ([0128a21](https://code.castopod.org/adaures/castopod/commit/0128a21ec55dcc0a2fbf4081dadb4c4737735ba1))
-- **activitypub:** allow cors on get requests for routes exposing acitivitypub
+- **activitypub:** allow cors on get requests for routes exposing activitypub
   objects
   ([2f24809](https://code.castopod.org/adaures/castopod/commit/2f2480998f9abb34f02ab186c65d462a74b4e640))
 - **activitypub:** set created_by to null for reblog if no user + update episode
@@ -176,7 +176,7 @@
 - declare typed properties in PHPDoc for php<7.4
   ([14dd44d](https://code.castopod.org/adaures/castopod/commit/14dd44d03d6db0d9ae4198db8e65c92a0e45cb31)),
   closes [#23](https://code.castopod.org/adaures/castopod/issues/23)
-- define podcast_id and platform_slug as foreign keys in podcasts_plaforms table
+- define podcast_id and platform_slug as foreign keys in podcasts_platforms table
   ([6e9451a](https://code.castopod.org/adaures/castopod/commit/6e9451a1103b43750fa70ad576de36af25ca29cb))
 - define podcastNamespaceLink value
   ([0d744d2](https://code.castopod.org/adaures/castopod/commit/0d744d212df0d070ceea185068eaf2746e1ccd48))
@@ -501,7 +501,7 @@
 - **socialinteract:** move social interact uri into uri attribute + update
   social data upon import
   ([12b2200](https://code.castopod.org/adaures/castopod/commit/12b22008a237185cb736fc29352fab22421dad16))
-- sort episodes by published_at with unpublished episodes at the begining
+- sort episodes by published_at with unpublished episodes at the beginning
   ([1686f84](https://code.castopod.org/adaures/castopod/commit/1686f840d16f2bd3d71d7f222a59b8e6a838fd6e)),
   closes [#249](https://code.castopod.org/adaures/castopod/issues/249)
 - sort episodic podcasts by season
@@ -646,7 +646,7 @@
 - add legalNoticeURL to app config for setting an external url to legal notice
   ([711843a](https://code.castopod.org/adaures/castopod/commit/711843a0c81e1e2ec7a015431786df4ef32d5092))
 - add lock podcast according to the Podcastindex podcast-namespace to prevent
-  unauthozized import
+  unauthorized import
   ([72b3012](https://code.castopod.org/adaures/castopod/commit/72b301272e0b70ded3e2b237391909e3f152ad0b))
 - add map analytics, add episodes analytics, clean analytics page layout,
   translate countries
@@ -812,7 +812,7 @@
   [#91](https://code.castopod.org/adaures/castopod/issues/91)
   [#92](https://code.castopod.org/adaures/castopod/issues/92)
   [#88](https://code.castopod.org/adaures/castopod/issues/88)
-- **fonts:** replace Montserrat with Inter for better readablity
+- **fonts:** replace Montserrat with Inter for better readability
   ([bfa11d0](https://code.castopod.org/adaures/castopod/commit/bfa11d007d04b8ac714c8cf3b8050a6aaf177a26))
 - **GDPR:** add GDPR.yml file to public/.well-known/
   ([86bccc3](https://code.castopod.org/adaures/castopod/commit/86bccc3d5cc9562b89196f1766ac91cdc8ad786d))
@@ -1014,7 +1014,7 @@
 - **video-clips:** generate a 16:9 video using ffmpeg
   ([35aa7ea](https://code.castopod.org/adaures/castopod/commit/35aa7ea5d9a339b3e6f745137282268d69fe2231))
 - **video-clips:** generate subtitles clip using transcript json to have
-  subtitles accross video
+  subtitles across video
   ([3ce07e4](https://code.castopod.org/adaures/castopod/commit/3ce07e455d171e29be30d8ad45055510eb8d363c))
 - **video-clips:** replace hardcoded colors with config's theme colors
   ([e462abf](https://code.castopod.org/adaures/castopod/commit/e462abf6d660e41d2170c52caf45704008de58e9))
@@ -1400,7 +1400,7 @@
 
 ### Bug Fixes
 
-- **activitypub:** allow cors on get requests for routes exposing acitivitypub
+- **activitypub:** allow cors on get requests for routes exposing activitypub
   objects
   ([2f24809](https://code.castopod.org/adaures/castopod/commit/2f2480998f9abb34f02ab186c65d462a74b4e640))
 - **fediverse:** set model instances as non shared to prevent overlapping
@@ -1597,7 +1597,7 @@
 - declare typed properties in PHPDoc for php<7.4
   ([14dd44d](https://code.castopod.org/adaures/castopod/commit/14dd44d03d6db0d9ae4198db8e65c92a0e45cb31)),
   closes [#23](https://code.castopod.org/adaures/castopod/issues/23)
-- define podcast_id and platform_slug as foreign keys in podcasts_plaforms table
+- define podcast_id and platform_slug as foreign keys in podcasts_platforms table
   ([6e9451a](https://code.castopod.org/adaures/castopod/commit/6e9451a1103b43750fa70ad576de36af25ca29cb))
 - define podcastNamespaceLink value
   ([0d744d2](https://code.castopod.org/adaures/castopod/commit/0d744d212df0d070ceea185068eaf2746e1ccd48))
@@ -1903,7 +1903,7 @@
   ([0e14eb4](https://code.castopod.org/adaures/castopod/commit/0e14eb4d3f526b0fd256a6144f3fbfc3fe52a357)),
   closes [#131](https://code.castopod.org/adaures/castopod/issues/131)
 - add lock podcast according to the Podcastindex podcast-namespace to prevent
-  unauthozized import
+  unauthorized import
   ([72b3012](https://code.castopod.org/adaures/castopod/commit/72b301272e0b70ded3e2b237391909e3f152ad0b))
 - add map analytics, add episodes analytics, clean analytics page layout,
   translate countries
@@ -2022,7 +2022,7 @@
   [#91](https://code.castopod.org/adaures/castopod/issues/91)
   [#92](https://code.castopod.org/adaures/castopod/issues/92)
   [#88](https://code.castopod.org/adaures/castopod/issues/88)
-- **fonts:** replace Montserrat with Inter for better readablity
+- **fonts:** replace Montserrat with Inter for better readability
   ([bfa11d0](https://code.castopod.org/adaures/castopod/commit/bfa11d007d04b8ac714c8cf3b8050a6aaf177a26))
 - import podcast from an rss feed url
   ([9a5d5a1](https://code.castopod.org/adaures/castopod/commit/9a5d5a15b4945eb319da9e999c4ca60a0a4f6d2d)),
@@ -2178,7 +2178,7 @@
 - **video-clips:** generate a 16:9 video using ffmpeg
   ([35aa7ea](https://code.castopod.org/adaures/castopod/commit/35aa7ea5d9a339b3e6f745137282268d69fe2231))
 - **video-clips:** generate subtitles clip using transcript json to have
-  subtitles accross video
+  subtitles across video
   ([3ce07e4](https://code.castopod.org/adaures/castopod/commit/3ce07e455d171e29be30d8ad45055510eb8d363c))
 - **video-clips:** replace hardcoded colors with config's theme colors
   ([e462abf](https://code.castopod.org/adaures/castopod/commit/e462abf6d660e41d2170c52caf45704008de58e9))
@@ -2883,7 +2883,7 @@
 ### Features
 
 - add lock podcast according to the Podcastindex podcast-namespace to prevent
-  unauthozized import
+  unauthorized import
   ([72b3012](https://code.castopod.org/adaures/castopod/commit/72b301272e0b70ded3e2b237391909e3f152ad0b))
 
 # [1.0.0-alpha.4](https://code.castopod.org/adaures/castopod/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2020-10-20)
